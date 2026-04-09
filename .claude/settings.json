@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "projectName": "claude-configs-shared",
+  "organization": "polybase-poc",
+  "team": "all",
+  "rules": [
+    ".claude/rules/security.md",
+    ".claude/rules/code-quality.md",
+    ".claude/rules/git-workflow.md"
+  ],
+  "statusline": {
+    "enabled": true,
+    "format": "[claude-configs-shared] {branch} {status}"
+  },
+  "integrations": {
+    "github": {
+      "enabled": true,
+      "org": "polybase-poc",
+      "repo": "claude-configs-shared"
+    }
+  }
+}
