@@ -1,0 +1,9 @@
+# CODEOWNERS for claude-configs-shared
+# Template: single-team
+
+# Default owners for everything
+*       @polybase-poc/all
+
+# CI/CD and infrastructure changes require platform team review
+/.github/**              @polybase-poc/all @polybase-poc/platform-sre
+/Dockerfile              @polybase-poc/platform-sre
